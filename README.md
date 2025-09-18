@@ -26,7 +26,7 @@ bibliotecas de análise de dados e visualização, como **Pandas**,
 
 -   **BR-101** e **BR-116** aparecem como as mais críticas, liderando
     tanto em feridos quanto mortos.\
-    ![Feridos e Mortos por BR](feridos_uf.png)
+    ![Feridos e Mortos por BR](fig/feridos_uf.png)
 
 ------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ motoristas:\
 - **Ingestão de álcool**\
 - **Ultrapassagem indevida**
 
-![Causas](causas_acidentes.png)
+![Causas](fig/causas_acidentes.png)
 
 ------------------------------------------------------------------------
 
@@ -51,8 +51,8 @@ motoristas:\
 -   Já em número de mortos, **Grão Mogol (MG)** aparece como destaque
     negativo.
 
-![Feridos Municípios](feridos_municipios.png)\
-![Municípios](municipio.png)
+![Feridos Municípios](fig/feridos_municipios.png)\
+![Municípios](fig/municipio.png)
 
 ------------------------------------------------------------------------
 
@@ -63,8 +63,8 @@ motoristas:\
 -   **Dias da semana:** aumento na **sexta-feira**.\
 -   **Meses:** maior concentração de acidentes no **primeiro semestre**.
 
-![Acidentes por Tempo](grafico_linhas.png)\
-![Acidentes por Tempo com Barras](grafico_linhas_barras.png)
+![Acidentes por Tempo](fig/grafico_linhas.png)\
+![Acidentes por Tempo com Barras](fig/grafico_linhas_barras.png)
 
 ------------------------------------------------------------------------
 
@@ -73,7 +73,7 @@ motoristas:\
 -   **Gênero:** 60% masculino e 40% feminino.\
 -   **Período do dia:** 50% à tarde, 30% de manhã e 20% à noite.
 
-![Distribuição por Gênero e Fase do Dia](pct_genero_fase_dia.png)
+![Distribuição por Gênero e Fase do Dia](fig/pct_genero_fase_dia.png)
 
 ------------------------------------------------------------------------
 
@@ -88,13 +88,14 @@ motoristas:\
 
 ## 📂 Estrutura do Projeto
 
-    ├── causas_acidentes.png
-    ├── feridos_municipios.png
-    ├── feridos_uf.png
-    ├── grafico_linhas.png
-    ├── grafico_linhas_barras.png
-    ├── municipio.png
-    ├── pct_genero_fase_dia.png
+    ├── fig/
+    │   ├── causas_acidentes.png
+    │   ├── feridos_municipios.png
+    │   ├── feridos_uf.png
+    │   ├── grafico_linhas.png
+    │   ├── grafico_linhas_barras.png
+    │   ├── municipio.png
+    │   └── pct_genero_fase_dia.png
     ├── TimeAnalytics.ipynb
     └── README.md
 
